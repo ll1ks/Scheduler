@@ -49,6 +49,12 @@ public class TaskSchedulerTest {
         groovyTaskList = null;
     }
 
+    //
+    //
+    // TaskScheduler.getInstance()
+    //
+    //
+
     @Test
     public void testTaskScheduler() {
         Assert.assertNotNull(taskScheduler);
@@ -196,7 +202,7 @@ public class TaskSchedulerTest {
 
     @Test(expected = ExecutionException.class)
     public void testGetTaskResultTaskError() throws ExecutionException {
-        GroovyTask groovyTask = new GroovyTask("This is going to an error");
+        GroovyTask groovyTask = new GroovyTask("This is going to be an error");
         try {
             taskScheduler.submitTask(groovyTask);
             while (!taskScheduler.isTaskDone(groovyTask)) {
