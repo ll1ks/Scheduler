@@ -11,7 +11,7 @@ public abstract class AbstractScriptTask implements Task {
     /**
      * Unique id generator
      */
-    private static final AtomicInteger uniqueId = new AtomicInteger();
+    private static final AtomicInteger UNIQUEID = new AtomicInteger();
 
     /**
      * Task unique id
@@ -27,7 +27,7 @@ public abstract class AbstractScriptTask implements Task {
      * Default constructor
      */
     public AbstractScriptTask(String script) {
-        this.taskId = uniqueId.getAndIncrement();
+        this.taskId = UNIQUEID.getAndIncrement();
         this.script = script;
     }
 
