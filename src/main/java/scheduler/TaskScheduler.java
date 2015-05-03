@@ -66,6 +66,11 @@ public class TaskScheduler {
         this.updateLock = new ReentrantLock();
     }
 
+    /**
+     * Gets the task scheduler instance
+     * 
+     * @return TaskScheduler instance
+     */
     public static TaskScheduler getInstance() {
         return INSTANCE;
     }
