@@ -11,8 +11,6 @@ import scheduler.TaskScheduler;
 import client.thread.impl.GroovyMultithread;
 
 /**
- * MultithreadClient class
- * 
  * Sample client which launches different dummy GroovyTask to the TaskScheduler.
  * This class is multithreaded and uses 3 threads
  *

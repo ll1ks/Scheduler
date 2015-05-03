@@ -13,8 +13,6 @@ import scheduler.task.Task;
 import scheduler.task.impl.GroovyTask;
 
 /**
- * SequentialClient class
- * 
  * Sample client which launches different dummy GroovyTask to the TaskScheduler.
  * This class is monothread
  *

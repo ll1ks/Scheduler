@@ -1,8 +1,6 @@
 package scheduler.exception;
 
 /**
- * AbstractSchdulerException class
- * 
  * Parent exception for TaskScheduler project
  *
  */

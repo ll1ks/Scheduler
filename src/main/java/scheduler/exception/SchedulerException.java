@@ -1,7 +1,6 @@
 package scheduler.exception;
 
 /**
- * SchedulerException class
  * 
  * Exception thrown when something happens in the TaskScheduler
  *

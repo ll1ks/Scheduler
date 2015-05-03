@@ -4,8 +4,6 @@ import client.MultithreadClient;
 import client.thread.GroovyThread;
 
 /**
- * GroovyMultithread class
- *
  * A GroovyMultithread is a GroovyThread which updates a MultithreadClient
  */
 public class GroovyMultithread extends GroovyThread {

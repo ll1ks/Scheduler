@@ -3,8 +3,6 @@ package scheduler.task;
 import java.util.concurrent.Callable;
 
 /**
- * Task interface
- * 
  * A Task is a callable having an id
  *
  */

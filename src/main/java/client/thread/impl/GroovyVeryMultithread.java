@@ -4,8 +4,6 @@ import client.VeryMultithreadClient;
 import client.thread.GroovyThread;
 
 /**
- * GroovyVeryMultithread class
- *
  * A GroovyVeryMultithread is a GroovyThread which updates a
  * VeryMultithreadClient
  */

@@ -13,8 +13,6 @@ import scheduler.task.Task;
 import scheduler.task.impl.GroovyTask;
 
 /**
- * GroovyThread abstract class
- * 
  * Defines a thread which launches several dummy GroovyTask through
  * TaskScheduler and gets the results
  *

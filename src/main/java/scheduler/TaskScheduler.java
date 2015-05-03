@@ -19,8 +19,6 @@ import scheduler.exception.SchedulerException;
 import scheduler.task.Task;
 
 /**
- * TaskScheduler task
- * 
  * Task scheduler which allows to submit task and retrieve results
  *
  */
