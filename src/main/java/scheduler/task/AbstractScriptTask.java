@@ -11,7 +11,7 @@ public abstract class AbstractScriptTask implements Task {
     /**
      * Unique id generator
      */
-    static final AtomicInteger uniqueId = new AtomicInteger();
+    private static final AtomicInteger uniqueId = new AtomicInteger();
 
     /**
      * Task unique id
